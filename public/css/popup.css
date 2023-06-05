@@ -1,0 +1,16 @@
+body {
+  padding: 20px;
+  width: 420px;
+}
+
+.no-account-wrapper .list-group-item-action i {
+  margin-right: 10px
+}
+
+#root .card {
+  margin-bottom: 20px;
+}
+
+#root .card:last-child {
+  margin-bottom: 0px;
+}

@@ -1,0 +1,29 @@
+
+#activity-interest-table tbody td {
+    cursor: pointer;
+}
+
+#activity-interest-table .column-index {
+    width: 30px;
+    text-align: center;
+}
+
+#activity-interest-table .cell-total-text {
+    text-align: right;
+}
+
+#activity-interest-table .column-month {
+    width: 100px;
+}
+
+#activity-interest-table .column-desc {
+    width: 250px;
+}
+
+#activity-interest-table .column-avg-cash {
+    width: 150px;
+}
+
+#activity-interest-table .column-amount {
+    width: 120px;
+}

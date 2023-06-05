@@ -1,0 +1,54 @@
+#manage-positions .modal-body {
+  min-height: 80vh;
+  max-height: 80vh;
+  overflow-y: scroll;
+}
+
+#manage-positions .available-instrument-list li {
+  cursor: pointer;
+}
+
+#manage-positions .available-instrument .holding,
+#manage-positions .assigned-instrument .holding {
+  font-size: 0.85rem;
+  margin-left: 0.5rem;
+}
+
+#manage-positions .available-instrument,
+#manage-positions .assigned-instrument {
+  line-height: 40px;
+}
+
+#manage-positions .available-instrument .icon,
+#manage-positions .assigned-instrument .icon {
+  height: 40px;
+  margin-right: 0.5rem;
+}
+
+#manage-positions .list-group-item {
+  padding: 0.5rem;
+  cursor: move;
+}
+
+#manage-positions .assigned-portfolio {
+  font-size: 0.85rem;
+}
+
+#manage-positions .actions i {
+  margin: 0 0.5rem;
+  cursor: pointer;
+  opacity: 0.3;
+  visibility: hidden;
+}
+
+#manage-positions li.list-group-item:hover .actions i {
+  visibility: visible;
+}
+
+#manage-positions .actions i.delete-btn:hover {
+  color: #dc3545;
+}
+
+#manage-positions .assigned-instrument .actions i:hover {
+  opacity: 1;
+}

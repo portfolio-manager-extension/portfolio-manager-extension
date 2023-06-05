@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Portfolio Manager Extension",
+  "description": "Extract and Manage your TradeRepublic data (read-only, no trade actions involved)",
+  "version": "0.7.0",
+  "content_scripts": [
+    {
+      "matches": ["*://app.traderepublic.com/*"],
+      "js": ["js/tradeRepublic.js"],
+      "run_at": "document_start"
+    }
+  ],
+  "chrome_url_overrides": {
+    "newtab": "app.html"
+  },
+  "action": {
+    "default_title": "Trade Republic Accounts",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "js/background.js"
+  },
+  "permissions": ["webRequest", "storage", "unlimitedStorage", "tabs", "downloads"],
+  "host_permissions": ["*://*.traderepublic.com/*"],
+  "web_accessible_resources": [
+    {
+      "resources": ["js/trade-republic-injected.js", "css/trade-republic.css"],
+      "matches": ["*://app.traderepublic.com/*"]
+    }
+  ]
+}

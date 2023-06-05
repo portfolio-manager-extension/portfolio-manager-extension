@@ -1,0 +1,385 @@
+body.minimized-pme #trade-republic-pme-app,
+body.minimized-pme #trade-republic-pme-setup,
+body.minimized-pme #trade-republic-pme-login {
+  left: 5%;
+  width: auto;
+}
+
+/** override right bar to add some padding at bottom */
+.layout__extended,
+.layout__secondary {
+  padding-bottom: 425px;
+}
+
+#trade-republic-pme-app,
+#trade-republic-pme-setup,
+#trade-republic-pme-login {
+  position: fixed;
+  z-index: 1000000;
+  bottom: 10px;
+  left: 15%;
+  width: 70%;
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  opacity: 0.99;
+}
+
+.pme-header {
+  display: flex;
+  flex-grow: 1;
+}
+
+.pme-logo {
+  font-size: 22px;
+  white-space: nowrap;
+}
+
+.pme-logo .pme-brand a {
+  color: rgba(0, 0, 0, 0.9) !important;
+  text-decoration: none !important;
+}
+
+.pme-logo-second-line {
+  display: flex;
+  flex-grow: 1;
+}
+
+.pme-logo-second-line .pme-version {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 13px;
+  text-align: right;
+}
+
+.pme-logo-second-line .pme-action-wrapper {
+  font-size: 13px;
+  text-align: left;
+  flex: 1;
+}
+.pme-logo-second-line .pme-action-wrapper a {
+  color: rgba(0, 0, 0, 0.6);
+}
+.pme-logo-second-line .pme-action-wrapper a:hover {
+  color: var(--tr-color-app-link);
+}
+
+.pme-header-content {
+  flex: 1;
+  margin-left: 20px;
+  padding: 0 10px;
+}
+
+#trade-republic-pme-app .pme-header-content,
+#trade-republic-pme-login .pme-header-content {
+  line-height: 25px;
+}
+
+.pme-app-header-container,
+.pme-setup-container {
+  display: flex;
+  flex-grow: 1;
+  padding-top: 5px;
+}
+
+.pme-app-header-text,
+.pme-setup-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.pme-app-header-container .collect-data-btn,
+.pme-setup-container .setup-btn {
+  display: inline-block;
+  float: left;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
+    box-shadow 0.15s ease-in-out;
+}
+
+.pme-app .btn-primary {
+  color: #fff;
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.pme-app .btn-primary:hover {
+  color: #fff;
+  background-color: #0b5ed7;
+  border-color: #0a58ca;
+}
+
+/**********************************************************************************************************************/
+
+#pme-main-nav {
+  background-color: #f6f7f9;
+  margin-top: 10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  padding: 0 10px;
+  border-bottom: 1px solid #dee2e6;
+}
+
+#pme-main-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#pme-main-nav ul li {
+  padding: 10px 10px 5px 10px;
+}
+
+#pme-main-nav ul li:first-child {
+  padding-left: 0;
+}
+
+#pme-main-nav ul li a {
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #212529;
+  border: none !important;
+  background-color: transparent !important;
+  cursor: pointer;
+}
+
+#pme-main-nav ul li a.active {
+  box-shadow: inset 0 -3px #4c78dd;
+}
+
+#pme-main-nav ul li a.active:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+#pme-main-nav ul li a:hover {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+#pme-main {
+  max-height: 300px;
+  overflow: scroll;
+  padding-top: 10px;
+}
+
+/**********************************************************************************************************************/
+
+#pme-transactions-table {
+  width: 100%;
+  vertical-align: top;
+  border-color: #dee2e6;
+  border-spacing: 0;
+}
+
+#pme-transactions-table tbody tr:hover {
+  background-color: #e1e2e4;
+}
+
+#pme-transactions-table th,
+#pme-transactions-table td {
+  text-align: left;
+}
+
+#pme-transactions-table td,
+#pme-transactions-table th {
+  border-left: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+}
+
+#pme-transactions-table td:last-child,
+#pme-transactions-table th:last-child {
+  border-right: 1px solid #dee2e6;
+}
+
+#pme-transactions-table tr:last-child td,
+#pme-transactions-table tr:last-child th {
+  border-bottom: 1px solid #dee2e6;
+}
+
+#pme-transactions-table > :not(caption) > * > * {
+  padding: 0.25rem;
+}
+
+#pme-transactions-table .performance {
+  display: inline-block;
+  line-height: 16px;
+}
+
+#pme-transactions-table svg {
+  margin-left: 8px;
+  margin-right: 4px;
+}
+
+#pme-transactions-table th.column-index {
+  width: 25px;
+}
+
+#pme-transactions-table .cell-index {
+  text-align: center;
+}
+
+#pme-transactions-table th.column-time {
+  width: 125px;
+}
+
+#pme-transactions-table .action-row td {
+  text-align: center;
+}
+
+#pme-transactions-table .action-row a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/**********************************************************************************************************************/
+#pme-trade-history {
+  display: flex;
+  flex-grow: 1;
+}
+
+#pme-trade-history .pme-left-container {
+  flex-grow: 1;
+}
+
+#pme-trade-history .pme-right-container {
+  margin-left: 10px;
+  width: 250px;
+}
+
+#pme-trade-history .pme-block .title {
+  color: #6c757d;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#pme-trade-history .pme-performance .performance {
+  display: inline-block;
+}
+
+#pme-trade-history .pme-performance dl,
+#pme-trade-history .pme-current-price dl {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 0;
+}
+
+#pme-trade-history .pme-performance dt {
+  font-weight: normal;
+  flex-basis: 60%;
+  padding: 2px 0;
+}
+
+#pme-trade-history .pme-current-price dt {
+  font-weight: normal;
+  flex-basis: 45%;
+  padding: 2px 0;
+}
+#pme-trade-history .pme-performance dd,
+#pme-trade-history .pme-current-price dd {
+  flex-grow: 1;
+  margin: 0;
+  padding: 2px 0;
+  text-align: right;
+}
+#pme-trade-history .pme-performance .total {
+  font-weight: bold;
+}
+/**********************************************************************************************************************/
+
+/*#trade-republic-pme-app p,*/
+/*#trade-republic-pme-setup p,*/
+/*#trade-republic-pme-login p {*/
+/*  display: inline-block;*/
+/*  float: left;*/
+/*  margin-left: 1rem;*/
+/*  margin-top: 0.5rem;*/
+/*  margin-bottom: 0.5rem;*/
+/*}*/
+
+/*#trade-republic-pme-app a,*/
+/*#trade-republic-pme-setup a,*/
+/*#trade-republic-pme-login a {*/
+/*  color: #1967d2;*/
+/*  cursor: pointer;*/
+/*}*/
+
+/*#trade-republic-pme-app svg,*/
+/*#trade-republic-pme-setup a svg,*/
+/*#trade-republic-pme-login a svg {*/
+/*  margin-left: 5px*/
+/*}*/
+
+/*#trade-republic-pme-app .app-btn,*/
+
+/**********************************************************************************************************************/
+
+body.censored .pageHeader .currencyStatus {
+  color: var(--tr-color-transparent) !important;
+  background-color: #333 !important;
+  opacity: 0.5;
+  border-bottom: solid #fff 5px;
+  display: inline-block;
+}
+
+body.censored .performance.-positive > svg {
+  display: none;
+}
+
+body.censored .performance.-positive > * {
+  color: var(--tr-color-transparent) !important;
+  background-color: var(--tr-color-primary2-positive) !important;
+  opacity: 0.5;
+}
+
+body.censored .performance.-negative > svg {
+  display: none;
+}
+
+body.censored .performance.-negative > * {
+  color: var(--tr-color-transparent) !important;
+  background-color: var(--tr-color-primary2-negative) !important;
+  opacity: 0.5;
+}
+
+body.censored .instrumentListItem__priceRow > *:not(:last-child) {
+  color: var(--tr-color-transparent) !important;
+  background-color: var(--tr-color-foreground2) !important;
+  opacity: 0.5;
+}
+
+body.censored .instrumentListItem__currentPrice,
+body.censored .cashBalance__amount,
+body.censored .instrumentPosition__totalValue,
+body.censored .instrumentPosition__data .trDescDetails,
+body.censored .timelineDetail .trDescDetails {
+  color: var(--tr-color-transparent) !important;
+  background-color: #333 !important;
+  opacity: 0.5;
+}
+
+body.censored .timelineEvent .timelineEvent__change {
+  color: var(--tr-color-transparent) !important;
+  background-color: #333 !important;
+  opacity: 0.5;
+}

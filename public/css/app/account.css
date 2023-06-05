@@ -1,0 +1,21 @@
+.package .price {
+  background-color: #f6f7f9;
+  margin: -1rem -1rem 1rem -1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.package .subscribe {
+  background-color: #f6f7f9;
+  margin: 1rem -1rem -1rem -1rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.package .features {
+    text-align: center;
+}
+
+.package .list-group-item {
+    border: 0;
+}

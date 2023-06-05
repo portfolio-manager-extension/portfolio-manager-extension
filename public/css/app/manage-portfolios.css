@@ -1,0 +1,35 @@
+#portfolio-list .portfolio {
+  cursor: pointer;
+}
+
+#portfolio-list .portfolio i.fa-bars {
+  padding: 4px;
+  margin-right: 0.5rem;
+  opacity: 0.3;
+  cursor: move;
+}
+
+#portfolio-list .portfolio:hover i.fa-bars {
+  opacity: 0.5;
+}
+
+#switch-portfolio-list-action {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#switch-portfolio-list-action:hover {
+  opacity: 1;
+}
+
+#portfolio-detail .detail-header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+#portfolio-detail .detail-header a {
+  cursor: pointer;
+}
+
+#portfolio-detail form label {
+  font-weight: bold;
+}

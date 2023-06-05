@@ -1,0 +1,37 @@
+#activity-cash-flow-table tr.grouped-row td {
+  cursor: pointer;
+}
+
+#activity-cash-flow-table tr.expanded-row td {
+  padding: 0.25rem 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+#activity-cash-flow-table .column-index {
+  width: 30px;
+}
+
+#activity-cash-flow-table .column-time {
+  width: 110px;
+}
+
+#activity-cash-flow-table .column-amount {
+  width: 150px;
+}
+
+#activity-cash-flow-table .cell-total-text {
+  text-align: right;
+}
+
+#activity-cash-flow-grouped-type {
+  margin-left: 1rem;
+}
+
+#activity-cash-flow-grouped-type a.dropdown-item i {
+  margin-right: 9px;
+}
+
+#activity-cash-flow-grouped-type a.dropdown-item span.not-selected {
+  margin-left: 25px;
+}

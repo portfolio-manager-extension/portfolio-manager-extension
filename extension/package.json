@@ -1,0 +1,49 @@
+{
+  "name": "portfolio-manager-extension",
+  "version": "0.7.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "watch-prod": "webpack --config webpack/webpack.prod.js --watch",
+    "json-for-visualizer": "webpack --config webpack/webpack.dev.js --json > stats.json",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "style-extension": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "blueimp-md5": "^2.19.0",
+    "copy-webpack-plugin": "^9.0.1",
+    "dexie": "^3.2.3",
+    "echarts": "^5.4.2",
+    "glob": "^7.1.6",
+    "immutability-helper": "^3.1.1",
+    "jest": "^27.2.1",
+    "prettier": "^2.2.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.10.0",
+    "rimraf": "^3.0.2 ",
+    "sinon": "^15.0.4",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^8.0.0",
+    "typescript": "^4.4.3 ",
+    "uuid": "^9.0.0",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-merge": "^5.0.0"
+  },
+  "dependencies": {
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1"
+  }
+}

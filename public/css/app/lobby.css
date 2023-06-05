@@ -1,0 +1,131 @@
+body.lobby {
+  background-color: #ebeef2;
+  padding: 0;
+}
+
+#lobby-container {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+}
+
+#lobby-utilities {
+  border-radius: 7px;
+  min-height: 100%;
+  background-color: #fff;
+  margin-bottom: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#lobby-utilities .tab-content {
+  background-color: #fff;
+  padding: 1rem;
+}
+
+#lobby-utilities .nav-tabs {
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #f6f7f9;
+  border-bottom: 1px solid #dee2e6;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+
+#lobby-utilities .nav-item a {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #212529;
+  border: none !important;
+  background-color: transparent !important;
+  cursor: pointer;
+  margin-bottom: -2px;
+}
+
+#lobby-utilities .nav-item a.active {
+  border: solid 1px transparent;
+  box-shadow: inset 0 -3px #4c78dd;
+}
+
+#lobby-utilities .nav-item a.active:hover {
+  color: #212529;
+}
+
+#lobby-utilities .nav-item a:hover {
+  color: #0d6efd;
+}
+
+#lobby-links {
+  background-color: #fff;
+  border-radius: 7px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  min-height: 100%;
+}
+
+#lobby-links .account-login {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#lobby-links .account-login:first-child {
+  margin-top: 0;
+}
+
+#lobby-links .account-login i {
+  margin-right: 0.5rem;
+}
+
+#lobby-links .list-group {
+  margin-top: 1rem;
+}
+
+#lobby-links .list-group a i {
+  opacity: 0.5;
+  display: inline-block;
+  width: 25px;
+}
+
+#lobby-links .list-group a {
+  color: #6c757d;
+}
+
+#lobby-links .list-group a:hover {
+  color: #0d6efd;
+}
+
+#lobby-links .copyright {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.main-container {
+  margin-top: 1rem;
+  max-height: 500px;
+  overflow: auto;
+}
+
+.task {
+  display: flex;
+  flew-direction: column;
+}
+
+.task .task-text {
+  flex: 1;
+  line-height: 32px;
+}
+
+.task .task-action {
+
+  visibility: hidden;
+}
+
+.task:hover .task-action {
+  visibility: visible;
+}
+
+.task .task-deleted {
+  color: rgb(220, 53, 69, 0.5)
+}

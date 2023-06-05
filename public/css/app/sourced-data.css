@@ -1,0 +1,24 @@
+.sourced-data.without-icon {
+    cursor: pointer;
+}
+
+.sourced-data:hover > i.icon {
+    visibility: visible;
+    cursor: pointer;
+}
+
+.sourced-data > i.icon {
+    visibility: hidden;
+}
+
+.sourced-data > i.icon:first-child {
+    margin-right: 10px;
+}
+
+.sourced-data > i.icon:last-child {
+    margin-left: 10px;
+}
+.sourced-data.text-primary {
+    color: rgba(13, 110, 253, 0.8) !important
+}
+

@@ -1,0 +1,44 @@
+#activity-trading-table {
+}
+
+#activity-trading-table .cell-total-text {
+  text-align: right;
+}
+
+#activity-trading-table tr.grouped-row td {
+  cursor: pointer;
+}
+
+#activity-trading-table tr.expanded-row td {
+  padding: 0.25rem 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+#activity-trading-table .column-index {
+  width: 25px;
+}
+
+#activity-trading-table .column-time {
+  width: 135px;
+}
+
+#activity-trading-table tr.expanded-row .cell-time {
+  padding: 0.25rem 0.25rem;
+}
+
+#activity-trading-table .column-fee {
+  width: 100px;
+}
+
+#activity-trading-table .column-tax {
+  width: 100px;
+}
+
+#activity-trading-table .column-amount {
+  width: 120px;
+}
+
+#activity-trading-table .column-profit {
+  width: 120px;
+}

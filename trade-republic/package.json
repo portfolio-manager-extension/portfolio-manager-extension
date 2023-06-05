@@ -1,0 +1,34 @@
+{
+  "name": "portfolio-manager-extension-trade-republic",
+  "version": "0.7.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "webpack --config webpack/webpack.dev.js --watch",
+    "watch-prod": "webpack --config webpack/webpack.prod.js --watch",
+    "json-for-visualizer": "webpack --config webpack/webpack.dev.js --json > stats.json",
+    "build": "webpack --config webpack/webpack.prod.js",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "prettier --write \"src/**/*.{ts,tsx}\"",
+    "style-trade-republic": "prettier --write \"src/**/*.{ts,tsx}\""
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "glob": "^7.1.6",
+    "preact": "^10.14.1",
+    "prettier": "^2.2.1",
+    "rimraf": "^3.0.2 ",
+    "ts-jest": "^27.1.5",
+    "ts-loader": "^8.0.0",
+    "typescript": "^4.4.3 ",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.0.0",
+    "webpack-merge": "^5.0.0"
+  }
+}

@@ -1,0 +1,43 @@
+#activity-dividend-table .dividend-per-share {
+  font-size: 0.8rem;
+  color: #6c757d !important;
+  margin-left: 0.5rem;
+}
+
+#activity-dividend-table tr.grouped-row td {
+  cursor: pointer;
+}
+
+#activity-dividend-table tr.expanded-row td {
+  padding: 0.25rem 1rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  font-size: 0.9rem;
+}
+
+#activity-dividend-table .column-index {
+  width: 30px;
+}
+
+#activity-dividend-table .column-time {
+  width: 110px;
+}
+
+#activity-dividend-table .column-amount {
+  width: 120px;
+}
+
+#activity-dividend-table .cell-total-text {
+  text-align: right;
+}
+
+#activity-dividend-grouped-type {
+  margin-left: 1rem;
+}
+
+#activity-dividend-grouped-type a.dropdown-item i {
+  margin-right: 9px;
+}
+
+#activity-dividend-grouped-type a.dropdown-item span.not-selected {
+  margin-left: 25px;
+}

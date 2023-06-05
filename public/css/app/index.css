@@ -1,0 +1,19 @@
+@import "body.css";
+@import "header.css";
+@import "lobby.css";
+@import "sourced-data.css";
+@import "activity-interest.css";
+@import "activity-cash-flow.css";
+@import "activity-dividend.css";
+@import "activity-trading.css";
+@import "custom-portfolio.css";
+@import "manage-instruments.css";
+@import "manage-portfolios.css";
+@import "account.css";
+
+:root {
+  --pme-text-color: #212529;
+  --pme-text-warning-color: #ffc107;
+  --pme-header-item-bg-color: #dee2e2;
+  --pme-app-version-fg-color: #6c757d;
+}

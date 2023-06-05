@@ -1,0 +1,32 @@
+{
+  "name": "portfolio-manager-extension-main",
+  "version": "0.7.0",
+  "description": "",
+  "scripts": {
+    "init": "npm install && cd ./extension && npm install --from-lock-file && cd ../trade-republic && npm install --from-lock-file && cd ..",
+    "build": "cd trade-republic && npm run build && cd ../extension && npm run build",
+    "clean": "rimraf dist",
+    "test": "npx jest",
+    "style": "cd trade-republic && npm run style && cd ../extension && npm run style",
+    "release": "rm -rf ./dist && cd trade-republic && npm run build && cd ../extension && npm run build && cd .."
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "devDependencies": {
+    "@types/blueimp-md5": "^2.18.0",
+    "@types/chrome": "0.0.158",
+    "@types/echarts": "4.9.16",
+    "@types/jest": "^27.0.2",
+    "@types/react": "^18.0.25",
+    "@types/react-dom": "^18.0.9",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/sinon": "^10.0.14",
+    "@types/uuid": "^9.0.1",
+    "prettier": "^2.2.1",
+    "ts-jest": "^29.1.0"
+  }
+}

@@ -1,0 +1,219 @@
+#portfolio-transaction,
+#portfolio-allocation,
+#portfolio-performance {
+  min-height: 125px;
+}
+
+#portfolio-transaction:hover,
+#portfolio-allocation:hover,
+#portfolio-performance:hover {
+  border-color: #4c78dd;
+}
+
+#portfolio-allocation .chart-container {
+  margin: -1rem;
+}
+
+#portfolio-performance .changes {
+  text-align: right;
+}
+
+#portfolio-performance .percentage {
+  font-size: 0.85rem;
+}
+
+#portfolio-positions .card:first-child {
+  border-top-width: 1px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+#portfolio-positions .card:last-child {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+#portfolio-positions .card {
+  border-top-width: 0;
+  border-radius: 0;
+}
+
+/**********************************************************************************************************************/
+
+#all-positions-table .sorting {
+  opacity: 0.3;
+  line-height: 24px;
+  float: right;
+  cursor: pointer;
+}
+#all-positions-table .sorting:hover {
+  opacity: 0.5;
+}
+
+#all-positions-table .column-quantity {
+  width: 100px;
+}
+
+#all-positions-table .column-average-buy-in {
+  width: 100px;
+}
+
+#all-positions-table .column-price {
+  width: 100px;
+}
+
+#all-positions-table .column-amount {
+  width: 140px;
+}
+
+#all-positions-table .column-valuation {
+  width: 140px;
+}
+
+#all-positions-table .column-performance {
+  width: 200px;
+}
+
+/**********************************************************************************************************************/
+
+.portfolio-position {
+}
+
+.portfolio-position .card-body {
+  padding: 0px;
+}
+
+.portfolio-position .general-info .group-container {
+  padding: 0 1rem;
+}
+
+.portfolio-position .general-info .group-container:first-child {
+  padding-left: 0;
+}
+.portfolio-position .general-info .group-container:last-child {
+  padding-right: 0;
+}
+
+.portfolio-position .general-info {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.portfolio-position .general-info:hover {
+  background: #f6f7f9;
+}
+
+.portfolio-position .general-info .expand-icon {
+  min-width: 20px;
+}
+
+.portfolio-position .general-info .expand-icon i {
+  line-height: 64px;
+  opacity: 0.5;
+  visibility: hidden;
+  font-size: 1.5rem;
+}
+
+.portfolio-position.opened .general-info .expand-icon i,
+.portfolio-position .general-info:hover .expand-icon i {
+  visibility: visible;
+}
+
+.portfolio-position .general-info .icon img {
+  width: 64px;
+  height: 64px;
+}
+
+.portfolio-position .general-info .group-container.allocation {
+  min-width: 200px;
+}
+.portfolio-position .general-info .group-container.valuation {
+  min-width: 180px;
+}
+.portfolio-position .general-info .group-container.target {
+  min-width: 200px;
+}
+
+.portfolio-position .general-info .group-container .secondary-line {
+  font-size: 0.8rem;
+  color: #a5a5a5;
+}
+
+.portfolio-position .general-info .group-title,
+.portfolio-position .detail-info .group-title {
+  color: #6c757d;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.portfolio-position .general-info .valuation .secondary-line {
+  opacity: 0.8;
+}
+
+.portfolio-position .general-info .valuation .secondary-line i {
+  margin-right: 0.25rem;
+}
+
+.portfolio-position .detail-info {
+  padding: 1rem;
+  background-color: #f6f7f9;
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.portfolio-position .detail-info .right-container {
+  margin-left: 1rem;
+  width: 250px;
+}
+
+.portfolio-position .detail-info .transactions-table,
+.portfolio-position .detail-info .performance,
+.portfolio-position .detail-info .current-price {
+  font-size: 0.85rem;
+}
+
+.portfolio-position .detail-info .performance dl,
+.portfolio-position .detail-info .current-price dl {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.portfolio-position .detail-info .performance dt {
+  font-weight: normal;
+  flex-basis: 60%;
+  padding: 2px 0;
+}
+
+.portfolio-position .detail-info .current-price dt {
+  font-weight: normal;
+  flex-basis: 45%;
+  padding: 2px 0;
+}
+.portfolio-position .detail-info .performance dd,
+.portfolio-position .detail-info .current-price dd {
+  flex-grow: 1;
+  margin: 0;
+  padding: 2px 0;
+  text-align: right;
+}
+.portfolio-position .detail-info .performance .total {
+  font-weight: bold;
+}
+
+.portfolio-position .transactions-table th.column-index {
+  width: 25px;
+}
+
+.portfolio-position .transactions-table th.column-time {
+  width: 125px;
+}
+
+.portfolio-position .action-row td {
+  text-align: center;
+}
+
+.portfolio-position .action-row a {
+  text-decoration: none;
+  cursor: pointer;
+}

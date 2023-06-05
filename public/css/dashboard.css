@@ -1,0 +1,125 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+body.censored .sensitive-data {
+  filter: blur(10px);
+}
+
+/******************************************************************************/
+
+#navbar .trade-republic-account img {
+  display: inline-block;
+  float: left;
+  height: 30px;
+  margin-top: 8px;
+}
+
+#navbar .trade-republic-account div {
+  margin-left: 85px;
+}
+
+#navbar .dropdown-header {
+  text-transform: uppercase;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+/******************************************************************************/
+
+#footer nav {
+  box-shadow: 0 -5px 5px -5px rgba(0, 0, 0, 0.2);
+}
+
+#footer a.nav-link {
+  margin-left: 20px;
+}
+
+#footer a.nav-link i {
+  margin-right: 5px;
+}
+
+/******************************************************************************/
+
+#activity-interest-table .index {
+  width: 30px;
+  text-align: center;
+}
+
+#activity-interest-table .total-text {
+  text-align: right;
+}
+
+#activity-interest-table .month {
+  width: 100px;
+}
+
+#activity-interest-table .desc {
+  width: 250px;
+}
+
+#activity-interest-table .avg-cash {
+  width: 150px;
+}
+
+#activity-interest-table .amount {
+  width: 120px;
+}
+
+/******************************************************************************/
+
+.custom-data-modal {
+  width: 70%;
+  max-width: none!important
+}
+
+.custom-data-modal .form-col {
+  padding: 1rem;
+}
+
+.custom-data-modal .manual-col {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 1rem;
+}
+
+.custom-data-modal .manual-col figure {
+  margin: 0 0 2rem
+}
+
+.custom-data-modal .manual-col figure img {
+  box-shadow: 0 2px 4px 0 #6ebe71;
+}
+
+.custom-data-modal .modal-body {
+  padding: 0
+}
+
+/******************************************************************************/
+.custom-interest-data .manual-col {
+  max-height: 650px;
+  overflow: auto;
+}
+/******************************************************************************/
+
+.inferred-data.without-icon {
+  cursor: pointer;
+}
+
+.inferred-data:hover > i.icon {
+  visibility: visible;
+  cursor: pointer;
+}
+
+.inferred-data > i.icon {
+  visibility: hidden;
+}
+
+.inferred-data > i.icon:first-child {
+  margin-right: 10px;
+}
+
+.inferred-data > i.icon:last-child {
+  margin-left: 10px;
+}

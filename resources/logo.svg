@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+    <rect width="128" height="128" x="0" y="0" fill="#bebebe">
+    </rect>
+    <text x="0" y="90" font-size="110" font-family="sans-serif" fill="rgb(0,203,57)">P</text>
+    <text x="20" y="120" font-size="70" font-family="Arial" fill="rgb(0,203,57)">M</text>
+    <text x="80" y="120" font-size="70" font-family="sans-serif" fill="rgb(0,203,57)">E</text>
+</svg>
