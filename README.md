@@ -1,6 +1,7 @@
-# Portfolio Manager Extension for Trade Republic
+# [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) for Trade Republic
 
-The Portfolio Manager Extension is a Chrome extension designed to enhance your trading activities by importing data from
+The [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) is a
+Chrome extension designed to enhance your trading activities by importing data from
 Trade Republic and providing valuable insights.
 
 It's important to note that the extension functions solely as a reader and display tool. It does not facilitate any
@@ -63,26 +64,33 @@ awesomeness, and if you ever find something that needs improvement, please let u
 
 To install the extension, please follow these instructions:
 
-1. Go to the [Chrome Extension Store](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) and install the Portfolio Manager Extension.
+1. Go to the [Chrome Extension Store](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) and
+   install
+   the [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea).
 2. After installation, create a new tab. Chrome may prompt you with a message asking if the extension should replace the
    new tab. Choose "Keep it" to proceed. (If you miss this step, you can uninstall and reinstall the extension).
 3. Visit [app.traderepublic.com](https://app.traderepublic.com). You will notice a small banner at the bottom of the
    page.
 4. Log in to your Trade Republic account.
 5. Click on "Setup for this account" within the extension.
-6. Enable the "Collect data automatically" feature (it takes ~2-5 minutes to collect all data).
+6. Click the "Collect data automatically" button to collect data (it takes ~1-5 minutes).
 7. From now on, whenever you open a new tab, you will have access to your trading data.
 
-By following these steps, you will successfully install and set up the Portfolio Manager Extension to view your trading
+By following these steps, you will successfully install and set up
+the [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) to view
+your trading
 data conveniently on new tabs.
 
 ## Haftungsausschluss
 
-Die Portfolio Manager Extension dient ausschließlich zu Informationszwecken und stellt keine Finanzberatung dar. Die
+Die [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) dient
+ausschließlich zu Informationszwecken und stellt keine Finanzberatung dar. Die
 Extension ist dazu konzipiert, Ihnen bei der Verfolgung Ihres Portfolios zu helfen und auf Basis Ihrer eigenen
 Recherchen und Analysen informierte Anlageentscheidungen zu treffen.
 
-Bitte beachten Sie, dass die Portfolio Manager Extension keine Garantie für die Richtigkeit, Vollständigkeit,
+Bitte beachten Sie, dass
+die [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) keine
+Garantie für die Richtigkeit, Vollständigkeit,
 Aktualität, Zuverlässigkeit, Eignung oder Verfügbarkeit der bereitgestellten Informationen übernimmt. Die Extension kann
 Fehler, Auslassungen oder Ungenauigkeiten enthalten, und Sie sollten sich nicht ausschließlich auf die Informationen
 verlassen, die von der Extension bereitgestellt werden, um Ihre Anlageentscheidungen zu treffen.
@@ -91,7 +99,9 @@ Die Investition in Finanzmärkte birgt Risiken, und Sie sollten Ihre Anlageziele
 Risikobereitschaft sorgfältig abwägen, bevor Sie Anlageentscheidungen treffen. Die Performance Ihres Portfolios kann
 schwanken, und vergangene Ergebnisse sind keine Garantie für zukünftige Ergebnisse.
 
-Durch die Verwendung der Portfolio Manager Extension erkennen Sie an und stimmen zu, dass die Extension nicht für
+Durch die Verwendung
+der [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) erkennen
+Sie an und stimmen zu, dass die Extension nicht für
 Verluste oder Schäden, einschließlich direkter, indirekter, zufälliger, Folge- oder Strafschäden, haftet, die sich aus
 der Verwendung der Extension oder der bereitgestellten Informationen ergeben.
 
@@ -100,11 +110,14 @@ einzuholen, bevor Sie Anlageentscheidungen treffen.
 
 ## Disclaimer
 
-The Portfolio Manager Extension is for informational purposes only and is not intended to provide financial advice. The
+The [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) is for
+informational purposes only and is not intended to provide financial advice. The
 extension is designed to help you track your portfolio and make informed investment decisions based on your own research
 and analysis.
 
-Please note that the Portfolio Manager Extension does not guarantee the accuracy, completeness, timeliness, reliability,
+Please note that
+the [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) does not
+guarantee the accuracy, completeness, timeliness, reliability,
 suitability, or availability of the information provided. The extension may contain errors, omissions, or inaccuracies,
 and you should not rely on the information provided by the extension as the sole basis for your investment decisions.
 
@@ -112,7 +125,8 @@ Investing in financial markets involves risks, and you should carefully consider
 situation, and risk tolerance before making any investment decisions. The performance of your portfolio may fluctuate,
 and past performance is not indicative of future results.
 
-By using the Portfolio Manager Extension, you acknowledge and agree that the extension will not be held responsible for
+By using the [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea),
+you acknowledge and agree that the extension will not be held responsible for
 any losses or damages, including but not limited to direct, indirect, incidental, consequential, or punitive damages,
 arising from your use of the extension or any information provided by the extension.
 
