@@ -168,15 +168,21 @@ _Just 5 EUR a month, if you like it please subscribe_
 ## Credit
 
 We would like to extend our sincere appreciation and recognition to the following open-source projects, including
-FontAwesome, for their invaluable contributions to our extension:
+FontAwesome, for their invaluable contributions to our extension (alphabetical order):
 
-- [jszip](http://stuartk.com/jszip): A JavaScript class for generating and reading zip files.
-- [React](https://react.dev): The library for web and native user interfaces.
-- [React Router](https://reactrouter.com): a client side routing.
-- [Preact](https://preactjs.com): Fast 3kB alternative to React with the same modern API
-- [Webpack](https://webpack.js.org): Bundle tool for javascript
+- [Apache ECharts](https://echarts.apache.org/en/index.html): An Open Source JavaScript Visualization Library.
+- [blueimp-md5](https://github.com/blueimp/JavaScript-MD5): JavaScript MD5 implementation.
 - [FontAwesome](https://fontawesome.com/): We gratefully acknowledge FontAwesome for providing the icon fonts that
   enhance the visual elements of our extension.
+- [jest](https://jestjs.io/): Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+- [jszip](http://stuartk.com/jszip): A JavaScript class for generating and reading zip files.
+- [Preact](https://preactjs.com): Fast 3kB alternative to React with the same modern API.
+- [prettier](https://prettier.io/): An opinionated code formatter.
+- [React](https://react.dev): The library for web and native user interfaces.
+- [React Router](https://reactrouter.com): a client side routing.
+- [sinon](https://sinonjs.org/): Standalone test spies, stubs and mocks for JavaScript.
+- [uuid](https://github.com/uuidjs/uuid/): Generate RFC-compliant UUIDs in JavaScript.
+- [Webpack](https://webpack.js.org): Bundle tool for javascript.
 
 We are immensely grateful to the open-source community and the creators of FontAwesome for their dedication and efforts,
 which have played a significant role in the development of our extension.

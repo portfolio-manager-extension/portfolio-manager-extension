@@ -98,14 +98,54 @@ export default function WelcomePage() {
       <div id="credit-texts">
         <p>
           We would like to extend our sincere appreciation and recognition to the following open-source projects,
-          including FontAwesome, for their invaluable contributions to our extension:
+          including FontAwesome, for their invaluable contributions to our extension (alphabetical order):
         </p>
         <ul>
+          <li>
+            <a className="text-decoration-none" href="https://echarts.apache.org/en/index.html">
+              Apache ECharts
+            </a>
+            : An Open Source JavaScript Visualization Library.
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://github.com/blueimp/JavaScript-MD5">
+              blueimp-md5
+            </a>
+            : JavaScript MD5 implementation.{" "}
+          </li>
+          <li>
+            <a className="text-decoration-none" href=""></a>:
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://fontawesome.com/">
+              FontAwesome
+            </a>
+            : We gratefully acknowledge FontAwesome for providing the icon fonts that enhance the visual elements of our
+            extension.
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://jestjs.io/">
+              jest
+            </a>
+            : Jest is a delightful JavaScript Testing Framework with a focus on simplicity.
+          </li>
           <li>
             <a className="text-decoration-none" href="http://stuartk.com/jszip">
               jszip
             </a>
             : A JavaScript class for generating and reading zip files.
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://preactjs.com">
+              Preact
+            </a>
+            : Fast 3kB alternative to React with the same modern API
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://prettier.io/">
+              prettier
+            </a>
+            : An opinionated code formatter.
           </li>
           <li>
             <a className="text-decoration-none" href="https://react.dev">
@@ -120,23 +160,22 @@ export default function WelcomePage() {
             : a client side routing.
           </li>
           <li>
-            <a className="text-decoration-none" href="https://preactjs.com">
-              Preact
+            <a className="text-decoration-none" href="https://sinonjs.org/">
+              sinon
             </a>
-            : Fast 3kB alternative to React with the same modern API
+            : Standalone test spies, stubs and mocks for JavaScript.
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://github.com/uuidjs/uuid/">
+              uuid
+            </a>
+            : Generate RFC-compliant UUIDs in JavaScript.
           </li>
           <li>
             <a className="text-decoration-none" href="https://webpack.js.org">
               Webpack
             </a>
             : Bundle tool for javascript
-          </li>
-          <li>
-            <a className="text-decoration-none" href="https://fontawesome.com/">
-              FontAwesome
-            </a>
-            : We gratefully acknowledge FontAwesome for providing the icon fonts that enhance the visual elements of our
-            extension.
           </li>
         </ul>
         <p>
