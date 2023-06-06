@@ -1,12 +1,22 @@
 {
   "manifest_version": 3,
   "name": "Portfolio Manager Extension",
-  "description": "Extract and Manage your TradeRepublic data (read-only, no trade actions involved)",
+  "description": "Enhance your trading activities by importing data from Trade Republic and providing valuable insights (no trading actions involved).",
   "version": "0.7.0",
+  "icons": {
+    "16": "img/logo.16.png",
+    "32": "img/logo.32.png",
+    "48": "img/logo.48.png",
+    "128": "img/logo.128.png"
+  },
   "content_scripts": [
     {
-      "matches": ["*://app.traderepublic.com/*"],
-      "js": ["js/tradeRepublic.js"],
+      "matches": [
+        "*://app.traderepublic.com/*"
+      ],
+      "js": [
+        "js/tradeRepublic.js"
+      ],
       "run_at": "document_start"
     }
   ],
@@ -20,12 +30,25 @@
   "background": {
     "service_worker": "js/background.js"
   },
-  "permissions": ["webRequest", "storage", "unlimitedStorage", "tabs", "downloads"],
-  "host_permissions": ["*://*.traderepublic.com/*"],
+  "permissions": [
+    "webRequest",
+    "storage",
+    "unlimitedStorage",
+    "tabs",
+    "downloads"
+  ],
+  "host_permissions": [
+    "*://*.traderepublic.com/*"
+  ],
   "web_accessible_resources": [
     {
-      "resources": ["js/trade-republic-injected.js", "css/trade-republic.css"],
-      "matches": ["*://app.traderepublic.com/*"]
+      "resources": [
+        "js/trade-republic-injected.js",
+        "css/trade-republic.css"
+      ],
+      "matches": [
+        "*://app.traderepublic.com/*"
+      ]
     }
   ]
 }

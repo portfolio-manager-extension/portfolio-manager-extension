@@ -9,7 +9,7 @@ external sources. Your privacy and data security are our top priorities.
 
 ## How it works
 
-![how it works](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/public/img/en.how-it-works.png)
+![how it works](public/img/en.how-it-works.png)
 _The diagram illustrates the architecture of the extension, with all extension components depicted in blue. These
 components include the Banner, Reader, and App, which interact with the Trade Republic website and server to enable
 seamless data collection and visualization for portfolio management._
@@ -63,14 +63,14 @@ awesomeness, and if you ever find something that needs improvement, please let u
 
 To install the extension, please follow these instructions:
 
-1. Go to the Chrome Extension Store and install the Portfolio Manager Extension.
+1. Go to the [Chrome Extension Store](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) and install the Portfolio Manager Extension.
 2. After installation, create a new tab. Chrome may prompt you with a message asking if the extension should replace the
    new tab. Choose "Keep it" to proceed. (If you miss this step, you can uninstall and reinstall the extension).
 3. Visit [app.traderepublic.com](https://app.traderepublic.com). You will notice a small banner at the bottom of the
    page.
 4. Log in to your Trade Republic account.
 5. Click on "Setup for this account" within the extension.
-6. Enable the "Collect data automatically" feature.
+6. Enable the "Collect data automatically" feature (it takes ~2-5 minutes to collect all data).
 7. From now on, whenever you open a new tab, you will have access to your trading data.
 
 By following these steps, you will successfully install and set up the Portfolio Manager Extension to view your trading
@@ -121,34 +121,34 @@ any investment decisions.
 
 ## Screenshots
 
-![trade-republic-setup](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/tr-setup.png)
+![trade-republic-setup](resources/tr-setup.png)
 _Setup step for the first time logged into Trade Republic_
 
-![trade-republic-show-data](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/tr-trade-history.png)
+![trade-republic-show-data](resources/tr-trade-history.png)
 _Trade History show right when opening an instrument_
 
-![newtab-all-positions](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-all-positions.png)
+![newtab-all-positions](resources/new-tab-all-positions.png)
 _Tree chart to view all of your holding positions_
 
-![newtab-custom-portfolio](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-portfolio.png)
+![newtab-custom-portfolio](resources/new-tab-portfolio.png)
 _Custom portfolio provide better view of your position_
 
-![newtab-trading](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-trading.png)
+![newtab-trading](resources/new-tab-trading.png)
 _Trading activity and profit data_
 
-![newtab-dividend](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-dividend.png)
+![newtab-dividend](resources/new-tab-dividend.png)
 _Dividend data_
 
-![newtab-dividend](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-cash-in-n-out.png)
+![newtab-dividend](resources/new-tab-cash-in-n-out.png)
 _Cash in and out data_
 
-![newtab-export](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-export.png)
+![newtab-export](resources/new-tab-export.png)
 _Your data is yours, you can export whenever you want_
 
-![newtab-import](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-import.png)
+![newtab-import](resources/new-tab-import.png)
 _You can import it from machine to machine_
 
-![newtab-account](https://raw.githubusercontent.com/portfolio-manager-extension/portfolio-manager-extension/master/resources/new-tab-account.png)
+![newtab-account](resources/new-tab-account.png)
 _Just 5 EUR a month, if you like it please subscribe_
 
 ## Credit
@@ -160,6 +160,7 @@ FontAwesome, for their invaluable contributions to our extension:
 - [React](https://react.dev): The library for web and native user interfaces.
 - [React Router](https://reactrouter.com): a client side routing.
 - [Preact](https://preactjs.com): Fast 3kB alternative to React with the same modern API
+- [Webpack](https://webpack.js.org): Bundle tool for javascript
 - [FontAwesome](https://fontawesome.com/): We gratefully acknowledge FontAwesome for providing the icon fonts that
   enhance the visual elements of our extension.
 

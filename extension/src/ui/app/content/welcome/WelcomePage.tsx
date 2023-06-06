@@ -53,7 +53,37 @@ export default function WelcomePage() {
           </li>
         </ul>
         <div>
-          <p>You can also view screenshots showcasing the extension in action: ...screenshots...</p>
+          <p>You can also view screenshots showcasing the extension in action:</p>
+          <div className="text-center">
+            <figure className="figure">
+              <img src="./img/tr-trade-history.png" className="figure-img img-fluid rounded" />
+              <figcaption className="figure-caption">Trade History show right when opening an instrument</figcaption>
+            </figure>
+            <br />
+            <br />
+            <figure className="figure">
+              <img src="./img/new-tab-all-positions.png" className="figure-img img-fluid rounded" />
+              <figcaption className="figure-caption">Tree chart to view all of your holding positions</figcaption>
+            </figure>
+            <br />
+            <br />
+            <figure className="figure">
+              <img src="./img/new-tab-portfolio.png" className="figure-img img-fluid rounded" />
+              <figcaption className="figure-caption">Custom portfolio provide better view of your position</figcaption>
+            </figure>
+            <br />
+            <br />
+            <figure className="figure">
+              <img src="./img/new-tab-trading.png" className="figure-img img-fluid rounded" />
+              <figcaption className="figure-caption">Trading activity and profit data</figcaption>
+            </figure>
+            <br />
+            <br />
+            <figure className="figure">
+              <img src="./img/new-tab-dividend.png" className="figure-img img-fluid rounded" />
+              <figcaption className="figure-caption">Dividend data</figcaption>
+            </figure>
+          </div>
         </div>
         <p>
           To build trust, we have made our source code open for inspection. However, please note that this is not free
@@ -94,6 +124,12 @@ export default function WelcomePage() {
               Preact
             </a>
             : Fast 3kB alternative to React with the same modern API
+          </li>
+          <li>
+            <a className="text-decoration-none" href="https://webpack.js.org">
+              Webpack
+            </a>
+            : Bundle tool for javascript
           </li>
           <li>
             <a className="text-decoration-none" href="https://fontawesome.com/">

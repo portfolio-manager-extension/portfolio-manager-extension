@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280">
+    <rect width="440" height="280" x="0" y="0" fill="rgb(220,241,222)"></rect>
+    <svg width="128" height="128" x="0" y="76">
+        <rect width="96" height="96" x="16" y="16" fill="#234284" rx="16"></rect>
+        <line x1="32" y1="90" x2="52" y2="58" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+        <line x1="52" y1="58" x2="72" y2="72" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+        <line x1="72" y1="72" x2="96" y2="32" stroke="#ffffff" stroke-width="10" stroke-linecap="round" />
+    </svg>
+    <text x="128" y="128" font-size="35" font-weight="bold" font-family="Arial" fill="#333">Portfolio Manager</text>
+    <text x="128" y="170" font-size="25" font-family="Arial" fill="#333">for Trade Republic</text>
+</svg>

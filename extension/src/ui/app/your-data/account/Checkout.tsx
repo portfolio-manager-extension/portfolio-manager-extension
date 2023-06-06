@@ -83,10 +83,12 @@ export default function Checkout({ account }: Props) {
       }),
       mode: "cors",
     });
-    const response: CreateSubscriptResponse = await postStream.json();
-    if (response.data.payment_link) {
-      location.href = response.data.payment_link;
-      return;
+    if (postStream.status == 200) {
+      const response: CreateSubscriptResponse = await postStream.json();
+      if (response.data.payment_link) {
+        location.href = response.data.payment_link;
+        return;
+      }
     }
     setCheckingOut(false);
     setHasError(true);
