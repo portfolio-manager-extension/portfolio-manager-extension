@@ -11,7 +11,7 @@
     "release": "rm -rf ./dist && cd trade-republic && npm run build && cd ../extension && npm run build && cd .."
   },
   "author": "",
-  "license": "MIT",
+  "license": "Fair Source License, version 0.9",
   "repository": {
     "type": "git",
     "url": ""

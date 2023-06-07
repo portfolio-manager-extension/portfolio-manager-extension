@@ -14,7 +14,7 @@
     "style-extension": "prettier --write \"src/**/*.{ts,tsx}\""
   },
   "author": "",
-  "license": "MIT",
+  "license": "Fair Source License, version 0.9",
   "repository": {
     "type": "git",
     "url": ""
