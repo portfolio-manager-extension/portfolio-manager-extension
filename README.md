@@ -1,3 +1,12 @@
+![trade-republic-show-data](resources/banner.png)
+
+- 💻 All data stored locally in IndexedDB, no one can see your data 💯
+- 🖱️ Simple set up with 1-click, no email, no password.
+- 👨‍💻 No PIN, only works when you are logging to **Trade Republic**.
+- 📊 Dividend tracking, trade history, cash in and out log.
+- 📈 Custom portfolio to group your position.
+- 🎉 No restriction, no credit card required, WinRAR license.
+
 # [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) for Trade Republic
 
 The [Portfolio Manager Extension](https://chrome.google.com/webstore/detail/piiaagkdgpmnhmeggidclfiicicdknea) is a
@@ -161,9 +170,6 @@ _Your data is yours, you can export whenever you want_
 
 ![newtab-import](resources/new-tab-import.png)
 _You can import it from machine to machine_
-
-![newtab-account](resources/new-tab-account.png)
-_Just 5 EUR a month, if you like it please subscribe_
 
 ## Credit
 
