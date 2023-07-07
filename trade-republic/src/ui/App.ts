@@ -37,8 +37,8 @@ export default class App extends Component<Props, State> {
   }
 
   parseLocation() {
-    if (location.href != this.currentLocation) {
-      this.currentLocation = location.href;
+    if (window.location.href != this.currentLocation) {
+      this.currentLocation = window.location.href;
       const result = parseUrl(this.currentLocation);
       this.setState(Object.assign({}, this.state, result));
     }
