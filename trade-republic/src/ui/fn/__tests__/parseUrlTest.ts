@@ -19,10 +19,33 @@ describe("parseUrl", function () {
         input: "https://app.traderepublic.com/?whatever",
         output: { page: "home" },
       },
+      {
+        input: "https://app.traderepublic.com/portfolio?timeframe=1d",
+        output: { page: "instrument", instrumentId: "" },
+      },
+      {
+        input: "https://app.traderepublic.com/orders/savings-plan",
+        output: { page: "instrument", instrumentId: "" },
+      },
+      {
+        input: "https://app.traderepublic.com/profile",
+        output: { page: "instrument", instrumentId: "" },
+      },
+      {
+        input: "https://app.traderepublic.com/settings/personal",
+        output: { page: "instrument", instrumentId: "" },
+      },
+      {
+        input: "https://traderepublic.com/en-de",
+        output: { page: "unknown" },
+      },
+      {
+        input: "https://app.traderepublic.com/download-app",
+        output: { page: "unknown" },
+      },
     ];
     data.forEach(function (item) {
       const result = parseUrl(item.input);
-
       expect(result).toStrictEqual(item.output);
     });
   });
