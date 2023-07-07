@@ -14,6 +14,15 @@ export function parseUrl(location: string): ParseUrlResult {
     return { page: "login" };
   }
 
+  if (
+    lowerPath.startsWith("portfolio") ||
+    lowerPath.startsWith("orders") ||
+    lowerPath.startsWith("profile") ||
+    lowerPath.startsWith("settings")
+  ) {
+    return { page: "instrument", instrumentId: "" };
+  }
+
   if (lowerPath.startsWith("instrument")) {
     let instrumentId = "";
     const splash = path.indexOf("/");
