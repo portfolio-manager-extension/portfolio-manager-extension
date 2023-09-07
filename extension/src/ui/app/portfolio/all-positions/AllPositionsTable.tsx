@@ -13,6 +13,8 @@ type Props = {
   onSorted: (sortedBy: SortableColumn, direction: SortDirection) => void;
 };
 
+const TRADING_FEE = 1
+
 export default function AllPositionsTable({ account, data, sortedBy, sortDirection, onSorted }: Props) {
   function triggerSortChanged(column: SortableColumn, direction: SortDirection | undefined) {
     if (typeof direction !== "undefined") {
@@ -78,7 +80,7 @@ export default function AllPositionsTable({ account, data, sortedBy, sortDirecti
           <th className="cell-total-performance">
             <PerformanceValue
               value={data.performance.absolute.value}
-              text={data.performance.absolute.text + " · " + data.performance.percentage.text}
+              text={(data.performance.absolute.value - 1) + " · " + data.performance.percentage.text}
               icon={false}
             />
           </th>

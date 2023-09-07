@@ -44,7 +44,7 @@ export default function AllPositionsRow({ account, item }: Props) {
         {item.currentPerformance && (
           <PerformanceValue
             value={item.currentPerformance.absolute.value}
-            text={item.currentPerformance.absolute.text + " · " + item.currentPerformance.percentage.text}
+            text={item.currentPerformance.absolute.value - + " · " + item.currentPerformance.percentage.text}
             icon={false}
           />
         )}
