@@ -70,6 +70,10 @@
   width: 140px;
 }
 
+#all-positions-table .column-stoploss {
+  width: 200px;
+}
+
 #all-positions-table .column-performance {
   width: 200px;
 }

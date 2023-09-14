@@ -50,6 +50,9 @@ export default function AllPositionsTable({ account, data, sortedBy, sortDirecti
               onChanged={(direction) => triggerSortChanged("valuation", direction)}
             />
           </th>
+          <th className="column-stoploss">
+            Stop loss
+          </th>
           <th className="column-performance">
             Performance
             <ColumnSorting
